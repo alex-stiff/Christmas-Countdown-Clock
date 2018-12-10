@@ -9,11 +9,22 @@
 </head>
 <body>
     <div class="container">
-        <h1><span>Christmas</span>Countdown</h1>
+        <h1><span>Christmas</span> Countdown</h1>
         <div id="clock"></div>
     </div>
     
-    <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.js" integrity="sha256-0YPKAwZP7Mp3ALMRVB2i8GXeEndvCq3eSl/WsAl1Ryk=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
     <script src="countdown.js"></script>
+
+    <script>
+        $('#clock').countdown('2018/12/25', function(event){
+            var $this = $(this).html(event.strftime(''   
+            +'<div><span>%w</span><span>Weeks</span></div>'
+            +'<div><span>%d</span><span>Days</span></div>'
+            +'<div><span>%H</span><span>Hours</span></div>'
+            +'<div><span>%M</span><span>Min</span></div>'
+            +'<div><span>%S</span><span>Seconds</span></div>'   ))
+        })
+    </script>
 </body>
 </html>

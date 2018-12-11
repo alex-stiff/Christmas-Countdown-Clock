@@ -64,5 +64,12 @@ h1 span {
 }
 
 #clock div span:nth-child(1) {
+    font-size: 48px;
+    font-weight: 800;
+}
 
+#clock div span:nth-child(2) {
+    font-size: 18px;
+    font-weight: 800;
+    margin-top: -10px;
 }

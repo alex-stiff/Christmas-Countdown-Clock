@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Mountains+of+Christmas');
+
 body {
     margin: 0;
     padding: 0;
-    background: #000;
+    background: #f00;
 }
 
 .container {
@@ -16,7 +18,9 @@ h1 {
     text-align: center;
     text-transform: uppercase;
     color: #fff;
-    font-size: 3em;
+    font-size: 3em; 
+    font-family: 'Mountains of Christmas', cursive;
+
 }
 
 h1 span {
@@ -35,7 +39,11 @@ h1 span {
     width: 100px;
     padding: 20px;
     margin: 0 5px;
-    background: #000;
+    background: green;
     color: #fff;
     border: 2px solid;
+}
+
+#clock div:last-child {
+    background: ##e91e63;
 }

@@ -45,5 +45,24 @@ h1 span {
 }
 
 #clock div:last-child {
-    background: ##e91e63;
+    background: #f00;
+}
+
+#clock div:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    background: rgb(255, 255, 255, 0.2);
+}
+
+#clock div span {
+    display: block;
+    text-align: center;
+}
+
+#clock div span:nth-child(1) {
+
 }

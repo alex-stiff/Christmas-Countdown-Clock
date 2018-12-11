@@ -21,11 +21,21 @@ h1 {
 
 h1 span {
     font-size: 4em;
-    lh: .8em;
+    line-height: .8em;
 }
 
 #clock {
     display: flex;
     width: 570px;
     margin: 0 auto;
+}
+
+#clock div {
+    position: relative;
+    width: 100px;
+    padding: 20px;
+    margin: 0 5px;
+    background: #000;
+    color: #fff;
+    border: 2px solid;
 }
